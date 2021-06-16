@@ -1,0 +1,314 @@
+/*/* CSS STYLESHEET FOR IMAGINE IT WEB DEVELOPER WEBSITE */
+
+/* BASIC STYLING */
+
+body {
+    background-color: #010206;
+    color: white;
+    font-family: montserrat,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    margin: auto; /* sets browser margins back to default */
+    max-width: 1400px;
+    padding: 0;
+}
+
+
+/* GRID TYPES */
+
+.full-width {
+    margin: 0 auto;
+    height: auto;
+    width: 1400px;
+}
+
+.half-width {
+    float: left;
+    height: auto;
+    width: 700px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+
+/* HEADER SECTION */
+
+header {
+    background-image: url('../img/painted-face-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1020px;
+    width: 100%;
+}
+
+header p {
+    font-size: 30px;
+    margin: 0 0 0 25px;
+    text-transform: lowercase;
+}
+
+h1#tagline {
+    clear: both;
+    font-family: source-code-pro,monospace;
+    font-size: 72px;
+    font-style: italic;
+    font-weight: 700;
+    margin-left: 100px;
+    padding-top: 325px;
+    text-shadow: 1px 1px #030510;
+    text-transform: lowercase;
+}
+
+h1#tagline span {
+    color: cornflowerblue;
+}
+
+
+/* PHOTO CREDITS */
+
+.photo-credit {
+    font-size: 20px;
+    padding-top: 280px;
+}
+
+.photo-credit a {
+    color: #ff7300;
+}
+
+.photo-credit a:hover {
+    color: cornflowerblue;
+}
+
+
+/* HORIZONTAL NAVIGATION SECTION */
+
+
+nav a:hover {
+    color: cornflowerblue;
+}
+
+nav ul {
+    float: right;
+    margin-top: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 30px;
+    padding: 0 25px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+
+/* MAIN SECTION */
+
+main .half-width {
+    margin: 0 100px;
+}
+
+h2 {
+    font-family: source-code-pro, monospace;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+/* PORTFOLIO SECTION */
+
+#portfolio .half-width {
+    height: 360px;
+    margin-bottom: 100px;
+    width: 500px;
+}
+
+#portfolio h2 {
+    color: cornflowerblue;
+}
+
+#portfolio h3 {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+p.sub-heading {
+    font-style: italic;
+    line-height: 0;
+}
+
+#rpwp-artist-statement, #rcwp-artist-statement {
+    height: 400px;
+    margin-left: -50px;
+    overflow: auto;
+}
+
+#jawp-artist-statement {
+    height: 400px;
+    overflow: auto;
+    width: 550px;
+}
+
+
+/* PORTFOLIO IMAGES */
+
+#rpwp-img, #rcwp-img {
+    display: inline;
+    float: left;
+    margin-top: 35px;
+}
+
+#jawp-img {
+    display: inline;
+    float: right;
+    margin-top: 35px;
+}
+
+
+/* CUSTOMIZED SCROLL BARS - Google Chrome, Microsoft Edge, Opera */
+
+/* WIDTH */
+main ::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* TRACK */
+main ::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px grey;
+}
+
+/* HANDLE */
+main ::-webkit-scrollbar-thumb {
+    background: cornflowerblue;
+    border-radius: 5px;
+}
+
+/* HANDLE ON HOVER */
+main ::-webkit-scrollbar-thumb:hover {
+    background: #2a63a4;
+}
+
+
+/* ABOUT ME SECTION */
+
+/* PHOTO CREDIT */
+
+#about-me .full-width .photo-credit {
+    color: white;
+    display: inline-block;
+    margin: -190px 0 0 -120px;
+    text-align: right;
+    text-shadow: none;
+    width: 100%;
+}
+
+#about-me {
+    background-image: url('../img/vilnius-anton-sukhinov-with-scrim.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1221px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#about-me h2 {
+    color: cornflowerblue;
+    text-shadow: 1px 1px #815936;
+}
+
+#about-me p {
+    color: #010206;
+    text-shadow: 1px 1px #f5d69d;
+    width: 500px;
+}
+
+#about-me p.statement {
+    color: #010206;
+    font-weight: bold;
+}
+
+
+/* FOOTER SECTION */
+
+footer h2 {
+    color: cornflowerblue;
+}
+
+p.copyright {
+    clear: both;
+    display: block;
+    font-size: 18px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#contact-info, #social-media, #chat-session {
+    text-align: center;
+}
+
+
+/* ADDRESS SECTION */
+
+#contact-info {
+    font-family: montserrat,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    margin-left: 105px;
+}
+
+#contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+#contact-info a:hover {
+    color: cornflowerblue;
+}
+
+
+
+/* SOCIAL MEDIA SECTION */
+
+#social-media {
+    margin-left: 100px;
+    width: 400px;
+}
+
+#social-media img {
+    padding: 0 20px;
+}
+
+
+/* ICON IMAGE COLOR CHANGE ON HOVER */
+
+.image_off, .icon-color:hover .image_on {
+    display: none;
+}
+
+.image_on, .icon-color:hover .image_off {
+    display: inline-block;
+}
+
+
+/* CHAT SESSION MEETUP SECTION */
+
+#chat-session {
+    margin-left: 90px;
+}
